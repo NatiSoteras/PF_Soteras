@@ -74,6 +74,7 @@ a:visited {
 }
 
 p {
+    
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
@@ -93,6 +94,9 @@ p {
     text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
 }
 
+h1 {
+    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
+}
 #intro {
     text-align: center;
     justify-content: center;
@@ -136,16 +140,17 @@ p {
     text-align: justify;
 }
 
-
-
-#tituloppal {
-    font-family: Robuck;    
-    font-size: 300%;
-    letter-spacing: 5px;
-    margin-top: 3em;
+#logoindex {
+    margin-top: 7em;
+    margin-bottom: 1em;
+    display: flex;
     text-align: center;
-    text-shadow: 0 0 5px yellow;
+    justify-content: center;
+    padding: 0;
+    width: 50%;
+    height: 50%;
 }
+
 
 .titulo h1 {
     
@@ -157,7 +162,7 @@ p {
     margin-top: 3em;
     text-align: center;
     font-size: 300%;
-    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(178, 128, 195), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
+    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
   
 }
 
@@ -189,9 +194,14 @@ p {
         width: 50%;
         height: 50%; 
     }
+    #logoindex {
+        margin-top: 5em;
+        width: 70%;
+        height: 70%;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 778px) {
     #bajar{
         order: 1;
     }
@@ -202,9 +212,22 @@ p {
         width: 50%;
         align-items: center;
         text-align: justify;
-    }
+    }   
     
+    #logoindex {
+        margin-top: 9em;
+
+    }
 }
+
+@media screen and (max-width: 778px) and (min-width: 577px) {
+    #logoindex {
+        margin-top: 9em;
+
+    }
+}
+
+
 h2 {
     font-family: Amaticbold;
     text-align: center;
