@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: RedHat;
+    src:url(../fuentes/Red_Hat_text/RedHatText-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Moontime;
+    src: url(../fuentes/moontime/moontime-regular.ttf);
+}
+
+@font-face {
+    font-family: Robuck;
+    src: url(../fuentes/robuck-regular/robuck-regular.otf);
+}
+
+@font-face {
+    font-family: Amaticbold;
+    src: url(../fuentes/Amatic_SC/AmaticSC-Bold.ttf);
+}
+
+
+#Menupi a:hover {
+    background-color: rgb(133, 131, 129);
+
+}
+
+
+
+a:link{
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    
+}
+
+
+
+#mifooter {
+    margin-top: 2%;
+}
+
+#imgenc {
+
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    opacity: .8; 
+    max-width: 100%; 
+}
+
+
+
+#imgmenu {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    align-content: center;
+    opacity: .8;
+       
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    font-family: RedHat; 
+    text-align: justify;
+    font-size: 80%;
+    align-content: center;     
+}
+
+#p1 {
+    font-family: Moontime;
+    text-align: center;
+    align-items: center;
+    font-size: 250%;
+    margin: 5%;
+    justify-content: center;
+    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
+}
+
+#intro {
+    text-align: center;
+    justify-content: center;
+    font-size: 100%;
+    
+}
+
+#imginicio img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+
+#imgorg img {
+    width: 60%;
+    height: 60%;
+}
+
+#imgjur img {
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+    box-shadow: 3px 3px 10px;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+#caracteristicas img {
+    width: 100%;
+    height: 100%;
+}
+
+.texto {
+    margin-left: 25%;
+    font-family: RedHat;
+    font-size: larger;
+    width: 50%;
+    align-items: center;
+    
+    text-align: justify;
+}
+
+
+
+.Titulo-principal{
+    font-family: Robuck;    
+    font-size: 300%;
+    letter-spacing: 5px;
+    margin-top: 3em;
+    text-align: center;
+    text-shadow: 0 0 5px yellow;
+}
+
+.titulo h1 {
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: Moontime;
+    margin-top: 3em;
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(178, 128, 195), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
+  
+}
+
+.jurados {
+    margin: 1em;
+}
+@media screen and (max-width: 576px) {
+    .titulo h1 {
+    
+        font-size: 250%;
+      
+    }
+
+    .texto {
+        margin-left: 25%;
+        font-family: RedHat;
+        font-size: medium;
+        width: 50%;
+        align-items: center;
+        text-align: justify;
+    }
+
+    #imgenc img {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #imgorg img{
+        width: 50%;
+        height: 50%; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #bajar{
+        order: 1;
+    }
+    .texto {
+        margin-left: 25%;
+        font-family: RedHat;
+        font-size: medium;
+        width: 50%;
+        align-items: center;
+        text-align: justify;
+    }
+    
+}
+h2 {
+    font-family: Amaticbold;
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%; 
+    text-shadow: 0 0 5px yellow;
+}
+
+h3 {
+    font-family: Amaticbold;
+    text-align: left;
+    text-indent: 1em;
+    text-shadow: 0 0 5px rgb(145, 134, 12);
+}
+
+.Participacion {
+    font-family:RedHat;
+    text-align: justify;
+    padding: 3%; 
+}
+
+iframe {
+    width: 350px;
+   
+}
+
+.Inscripciones {
+    font-family: RedHat;
+    text-align: justify;
+    padding: 2%;
+    line-height: 200%;
+    
+}
+
+
+.jurado p {
+    font-family: RedHat;
+
+}
