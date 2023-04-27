@@ -83,7 +83,7 @@ p {
     align-content: center;     
 }
 
-#p1 {
+#p1 p{
     font-family: Moontime;
     text-align: center;
     align-items: center;
@@ -138,7 +138,7 @@ p {
 
 
 
-.Titulo-principal h1 {
+#tituloppal h1 {
     font-family: Robuck;    
     font-size: 300%;
     letter-spacing: 5px;
