@@ -42,7 +42,6 @@ a:visited {
 }
 
 
-
 #mifooter {
     margin-top: 2%;
 }
@@ -217,6 +216,15 @@ h1 {
     #logoindex {
         margin-top: 9em;
 
+    }
+
+    #brand-s {
+        width: 80px;
+
+    }
+    #brand-s img {
+        width: 60%;
+        
     }
 }
 
