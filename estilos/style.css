@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 @font-face {
     font-family: RedHat;
@@ -24,52 +21,19 @@
 }
 
 
-#Menupi a:hover {
-    background-color: rgb(133, 131, 129);
-
+/*Componentes generales*/
+* {
+    margin: 0;
+    padding: 0;
 }
 
-
-
 a:link{
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 a:visited {
     text-decoration: none;
     
-}
-
-
-#mifooter {
-    margin-top: 2%;
-}
-
-#imgenc {
-
-    display: flex;
-    flex-wrap: nowrap;
-    object-fit: cover;
-    padding: 0;
-    margin: 0;
-    align-content: center;
-    opacity: .8; 
-    max-width: 100%; 
-}
-
-
-
-#imgmenu {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    object-fit: cover;
-    width:100%;
-    height:100%;
-    align-content: center;
-    opacity: .8;
-       
 }
 
 p {
@@ -83,73 +47,18 @@ p {
     align-content: center;     
 }
 
-#p1 {
-    font-family: Moontime;
-    text-align: center;
-    align-items: center;
-    font-size: 250%;
-    margin: 5%;
-    justify-content: center;
-    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
-}
-
 h1 {
     text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
 }
-#intro {
+
+h2 {
+    font-family: Amaticbold; 
     text-align: center;
-    justify-content: center;
-    font-size: 100%;
+    margin-top: 3%;
+    text-shadow: 0 0 5px yellow;
+    font-size: 280%;
     
 }
-
-#imginicio img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 10%;
-}
-
-
-#imgorg img {
-    width: 60%;
-    height: 60%;
-}
-
-#imgjur img {
-    width: 80%;
-    height: 80%;
-    margin: 5%;
-    box-shadow: 3px 3px 10px;
-    border-radius: 0.5rem;
-    text-align: center;
-}
-
-#caracteristicas img {
-    width: 100%;
-    height: 100%;
-}
-
-.texto {
-    margin-left: 25%;
-    font-family: RedHat;
-    font-size: larger;
-    width: 50%;
-    align-items: center;
-    
-    text-align: justify;
-}
-
-#logoindex {
-    margin-top: 7em;
-    margin-bottom: 1em;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 0;
-    width: 50%;
-    height: 50%;
-}
-
 
 .titulo h1 {
     
@@ -165,15 +74,269 @@ h1 {
   
 }
 
+#imgenc {
+
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    opacity: .8; 
+    max-width: 100%; 
+}
+
+h3 {
+    font-family: Amaticbold;
+    text-align: center;
+    text-indent: 1em;
+    text-shadow: 0 0 5px rgb(145, 134, 12);
+    font-size: 250%;
+}
+
+/*Fin Componentes generales*/
+
+/* footer*/
+#mifooter {
+    margin-top: 2%;
+}
+/* fin - footer*/
+
+
+/* header*/
+#Menupi a:hover {
+    background-color: rgb(133, 131, 129);
+
+}
+/* fin - header*/
+
+
+/* #imgmenu {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    align-content: center;
+    opacity: .8;
+       
+} */
+
+/* Index*/
+
+#p1 {
+    font-family: Moontime;
+    text-align: center;
+    align-items: center;
+    font-size: 250%;
+    margin: 5%;
+    justify-content: center;
+    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
+}
+
+#intro {
+    text-align: center;
+    justify-content: center;
+    font-size: 100%;
+    
+}
+
+#imginicio img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+#logoindex {
+    margin-top: 7em;
+    margin-bottom: 1em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+}
+/* Fin Index*/
+
+
+/*Page Organizacion*/
+#imgorg img {
+    width: 60%;
+    height: 60%;
+}
+
+.texto {
+    margin-left: 25%;
+    font-family: RedHat;
+    font-size: larger;
+    width: 50%;
+    align-items: center;
+    
+    text-align: justify;
+}
+/*Fin - Page Organizacion*/
+
+/*Page Jurado*/
+#imgjur img {
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+    box-shadow: 3px 3px 10px;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+
 .jurados {
     margin: 1em;
 }
+
+.shadow-drop-2-bl img:hover {
+	-webkit-animation: shadow-drop-2-bl 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-2-bl 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/*Fin - Page Jurado*/
+
+
+/*Page Participacion*/
+#Participacion {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Participacion p{
+    margin: 0;
+}
+#Fecha ul li{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+#Modalidades ul li,
+.fecha ul li, 
+.tpremios ul li{
+    font-family: RedHat; 
+    margin-left: 10%;
+    font-size: 130%;  
+    padding: 0;    
+}
+.mapa {
+    justify-self: start; 
+    align-self: stretch; 
+    margin-left: 5%;
+  }
+
+  .aclaracion{
+    padding-top: 5%;
+    font-size: 90%;
+color:rgb(145, 134, 12);
+    
+} 
+
+#estilos p {
+    font-size: 110%;
+}
+
+#imgcat{
+   
+    display: grid;
+    justify-items: center;
+    width: 100%;
+   
+}
+
+.aclaracion2 {
+    padding-top: 5%;
+    font-size: 100%;
+    color:rgb(145, 134, 12);
+    font-weight: 600;
+    align-content: justify;
+} 
+
+ .tcrit p,
+ .tpremios p,
+ .Premiosesp p{
+    font-size: 120%;
+  }
+  
+  .Reglamento { 
+   
+    display: flex;
+    justify-content: center;
+ }
+ .Reglamento p{
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.Reglamento a:hover p{
+    color: black;
+    text-decoration: underline;
+    visibility: visible;
+    font-size: 60%;
+ } 
+
+
+
+ .Reglamento button a{ 
+    font-size: 100%;  
+    padding: 0px;
+ } 
+
+button:hover{
+    border-radius: 15%;
+   background-color: rgb(133, 131, 129); ;
+}
+
+.Reglamento h2{
+    margin-right: 3%;
+}
+button{
+    border-radius: 25%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+
+ 
+
+
+/*Fin - Page Organizacion*/
+
+
+.Inscripciones {
+    font-family: RedHat;
+    text-align: justify;
+    padding: 2%;
+    line-height: 200%;
+    
+}
+
 @media screen and (max-width: 576px) {
     .titulo h1 {
-    
         font-size: 250%;
-      
     }
+
+    
+    h2 {
+    
+      font-size: 220%;
+      margin-bottom: 3%;
+    }
+    h3 {
+    
+        font-size: 200%;
+        margin-bottom: 3%;
+      }
+  
 
     .texto {
         margin-left: 25%;
@@ -186,7 +349,8 @@ h1 {
 
     #imgenc img {
         padding: 0;
-        margin: 0;
+        margin-left: 3%;
+       
     }
     
     #imgorg img{
@@ -198,6 +362,36 @@ h1 {
         width: 70%;
         height: 70%;
     }
+    
+    .tcrit p,
+    .estilos p,
+    .tpremios p,
+    .Premiosesp p,
+    .tpremios ul li,
+    #Modalidades ul ligit{
+       font-size: 90%;
+     }
+
+     .aclaracion2 {
+        font-size: 90%;
+     }
+
+     #Fecha ul li{
+       
+        display: flex;
+        justify-content: center;
+    }
+   
+    #lugar {
+        display: flex;
+        justify-content: center;
+    }
+
+    #imgcat img{
+        width: 100%;
+
+    }
+
 }
 
 @media screen and (max-width: 778px) {
@@ -226,6 +420,10 @@ h1 {
         width: 60%;
         
     }
+    #imgcat img{
+        width: 100%;
+
+    }
 }
 
 @media screen and (max-width: 778px) and (min-width: 577px) {
@@ -233,53 +431,21 @@ h1 {
         margin-top: 9em;
 
     }
+    #imgcat img{
+        width: 100%;
+
+    }
 }
 
 
-h2 {
-    font-family: Amaticbold;
-    text-align: center;
-    margin-top: 1%;
-    padding: 1%; 
-    text-shadow: 0 0 5px yellow;
-}
-
-h3 {
-    font-family: Amaticbold;
-    text-align: left;
-    text-indent: 1em;
-    text-shadow: 0 0 5px rgb(145, 134, 12);
-}
-
-.Participacion {
-    font-family:RedHat;
-    text-align: justify;
-    padding: 3%; 
-}
-
-iframe {
-    width: 350px;
-   
-}
-
-.Inscripciones {
-    font-family: RedHat;
-    text-align: justify;
-    padding: 2%;
-    line-height: 200%;
-    
-}
 
 
-.jurado p {
-    font-family: RedHat;
 
-}
 
-.shadow-drop-2-bl img:hover {
-	-webkit-animation: shadow-drop-2-bl 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: shadow-drop-2-bl 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+
+
+
+
 
 /* ----------------------------------------------
  * Generated by Animista on 2023-5-2 22:31:21
