@@ -111,18 +111,6 @@ h3 {
 /* fin - header*/
 
 
-/* #imgmenu {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    object-fit: cover;
-    width:100%;
-    height:100%;
-    align-content: center;
-    opacity: .8;
-       
-} */
-
 /* Index*/
 
 #p1 {
@@ -231,31 +219,38 @@ h3 {
   }
 
   .aclaracion{
-    padding-top: 5%;
+    padding-top: 2%;
     font-size: 90%;
-color:rgb(145, 134, 12);
+    color:rgb(145, 134, 12);
     
 } 
+
+#Modalidyest{
+    padding: 0;
+}
 
 #estilos p {
     font-size: 110%;
 }
 
 #imgcat{
-   
     display: grid;
     justify-items: center;
     width: 100%;
    
 }
 
-.aclaracion2 {
-    padding-top: 5%;
+.aclaracion2 {   
     font-size: 100%;
     color:rgb(145, 134, 12);
     font-weight: 600;
-    align-content: justify;
+    padding: 1%;
+    
 } 
+
+.aclaracion2 p{
+    align-content: justify;
+}
 
  .tcrit p,
  .tpremios p,
@@ -290,9 +285,11 @@ color:rgb(145, 134, 12);
  } 
 
 button:hover{
-    border-radius: 15%;
-   background-color: rgb(133, 131, 129); ;
+    
+   background-color: rgb(133, 131, 129); 
 }
+
+
 
 .Reglamento h2{
     margin-right: 3%;
@@ -304,21 +301,94 @@ button{
     padding-right: 3%;
 }
 
+/*Fin - Page Participación*/
 
-
- 
-
-
-/*Fin - Page Organizacion*/
-
+/*Page Inscripciones*/
 
 .Inscripciones {
     font-family: RedHat;
-    text-align: justify;
-    padding: 2%;
-    line-height: 200%;
-    
+    margin-left: 10%;
+    margin-right: 10%;  
+   
+   
 }
+#Inicioinscrip p{
+ margin-bottom: 1%;
+ font-size: 120%;
+ 
+}
+
+
+
+.centrado {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    color:rgb(145, 134, 12);
+    font-weight: 600;
+}
+
+#Aranceles h3{
+    display: flex;
+    justify-content: start;
+}
+
+#Aranceles ul li{
+
+    font-family: RedHat; 
+    margin-left: 10%;
+    font-size: 130%;  
+    padding: 0;   
+    text-align: justify; 
+}
+
+.entradas p{
+    display: flex;
+    justify-content: center;
+    font-size: 120%; 
+    font-weight: 600;
+}
+
+
+#Inscripcion ul li,
+#Musica ul li{
+    list-style: none;
+    font-family: RedHat; 
+    margin-left: 0%;
+    font-size: 120%;  
+    padding-bottom: 1%;
+    text-align: justify;
+
+}
+
+#Inscripcion ul p{
+    font-family: RedHat; 
+    margin-left: 10%;
+    font-size: 120%;  
+    margin-right: 0%;
+    align-content: justify;
+    font-weight: 600;
+}
+
+#Formularioi,
+#Formularioc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#botonform a{
+    color: rgb(145, 134, 12) ;
+}
+
+#botonform a:hover{
+    
+    color: whitesmoke; 
+   background-color: rgb(133, 131, 129);
+}
+
+/*Fin - Page Inscripciones*/
 
 @media screen and (max-width: 576px) {
     .titulo h1 {
@@ -328,12 +398,12 @@ button{
     
     h2 {
     
-      font-size: 220%;
+      font-size: 180%;
       margin-bottom: 3%;
     }
     h3 {
     
-        font-size: 200%;
+        font-size: 160%;
         margin-bottom: 3%;
       }
   
@@ -364,16 +434,23 @@ button{
     }
     
     .tcrit p,
-    .estilos p,
+    #estilos p,
     .tpremios p,
     .Premiosesp p,
     .tpremios ul li,
-    #Modalidades ul ligit{
+    #Modalidades ul li,
+    #Inscripcion ul p,
+    #Inscripcion ul li,
+    #Musica ul li,
+    #Aranceles ul li,
+    .entradas p,
+    #Inicioinscrip p{
        font-size: 90%;
      }
 
-     .aclaracion2 {
-        font-size: 90%;
+     .aclaracion2,
+     .aclaracion {
+        font-size: 70%;
      }
 
      #Fecha ul li{
