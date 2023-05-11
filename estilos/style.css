@@ -318,8 +318,6 @@ button{
  
 }
 
-
-
 .centrado {
     margin-bottom: 0;
     display: flex;
@@ -468,6 +466,16 @@ button{
         width: 100%;
 
     }
+
+    #Inscripcion ul p,
+    #Inscripcion ul li,
+    #Musica ul li,
+    #Aranceles ul li,
+    .entradas p,
+    #Inicioinscrip p{
+        margin-right: 5%;
+    }
+
 
 }
 
