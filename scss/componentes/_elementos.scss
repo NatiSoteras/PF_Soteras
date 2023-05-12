@@ -1,8 +1,13 @@
+@import "../base/colores";
+
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: nth($colores,4);
+}
 a:link{
     text-decoration: none;  
 }
@@ -13,7 +18,7 @@ a:visited {
 }
 
 p {
-    
+    color: nth($colores,5);
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
@@ -24,14 +29,16 @@ p {
 }
 
 h1 {
-    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
+    color: nth($colores,5);
+    text-shadow: 0 0 5px nth($colores,6), 0 0 15px nth($colores,6), 0 0 30px nth($colores,7), 0 0 50px nth($colores,7);
 }
 
 h2 {
+    color: nth($colores,5);
     font-family: Amaticbold; 
     text-align: center;
     margin-top: 3%;
-    text-shadow: 0 0 5px yellow;
+    text-shadow: 0 0 5px nth($colores,2),0 0 15px nth($colores,2), 0 0 30px nth($colores,8), 0 0 50px nth($colores,8);
     font-size: 280%;
     
 }
@@ -39,14 +46,14 @@ h2 {
 .titulo h1 {
     
     display: flex;
-    
+    color: nth($colores,5);
     align-items: center;
     justify-content: center;
     font-family: Moontime;
     margin-top: 3em;
     text-align: center;
     font-size: 300%;
-    text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
+    text-shadow: 0 0 5px nth($colores,6), 0 0 15px nth($colores,6), 0 0 30px nth($colores,7), 0 0 50px nth($colores,7);
   
 }
 
@@ -63,9 +70,10 @@ h2 {
 }
 
 h3 {
+    color: nth($colores,5);
     font-family: Amaticbold;
     text-align: center;
     text-indent: 1em;
-    text-shadow: 0 0 5px rgb(145, 134, 12);
+    text-shadow: 0 0 5px nth($colores,3), 0 0 30px nth($colores,3), 0 0 50px nth($colores,7);
     font-size: 250%;
 }

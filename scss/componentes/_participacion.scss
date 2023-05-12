@@ -5,19 +5,55 @@
 #Participacion p{
     margin: 0;
 }
-#Fecha ul li{
-    list-style: none;
-    display: flex;
-    justify-content: end;
+#Fecha {
+    ul{
+        li{
+            list-style: none;
+            display: flex;
+            justify-content: end;
+            color: nth($colores,5);  
+        }
+    }
+    
 }
 
-#Modalidades ul li,
-.fecha ul li, 
-.tpremios ul li{
-    font-family: RedHat; 
-    margin-left: 10%;
-    font-size: 130%;  
-    padding: 0;    
+#Modalidades{
+
+    ul{
+        li{
+            font-family: RedHat; 
+            margin-left: 10%;
+            font-size: 130%;  
+            padding: 0;
+            color: nth($colores,5);  
+        }
+    }
+}
+
+.fecha{
+    ul{
+        li{
+            font-family: RedHat; 
+            margin-left: 10%;
+            font-size: 130%;  
+            padding: 0;
+            color: nth($colores,5) 
+        }
+
+    }
+}
+
+.tpremios{
+    ul{
+        li{
+            font-family: RedHat; 
+            margin-left: 10%;
+            font-size: 130%;  
+            padding: 0;
+            color: nth($colores,5) 
+        }
+
+    }
 }
 .mapa {
     justify-self: start; 
@@ -28,7 +64,7 @@
   .aclaracion{
     padding-top: 2%;
     font-size: 90%;
-    color:rgb(145, 134, 12);
+    color:nth($colores,8);
     
 } 
 
@@ -49,7 +85,7 @@
 
 .aclaracion2 {   
     font-size: 100%;
-    color:rgb(145, 134, 12);
+    color:nth($colores,8);
     font-weight: 600;
     padding: 1%;
     
@@ -78,7 +114,7 @@
 }
 
 .Reglamento a:hover p{
-    color: black;
+    color: nth($colores,5);
     text-decoration: underline;
     visibility: visible;
     font-size: 60%;
@@ -87,13 +123,12 @@
 
 
  .Reglamento button a{ 
-    font-size: 100%;  
+    font-size: 120%;  
     padding: 0px;
  } 
 
 button:hover{
-    
-   background-color: rgb(133, 131, 129); 
+    background-color: nth($colores,1); 
 }
 
 
@@ -102,8 +137,9 @@ button:hover{
     margin-right: 3%;
 }
 button{
-    border-radius: 25%;
+    border-radius: 15%;
     margin-top: 3%;
     padding-left: 3%;
     padding-right: 3%;
+    background-color: nth($colores,1);
 }

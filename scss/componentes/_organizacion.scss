@@ -1,6 +1,7 @@
 #imgorg img {
     width: 60%;
     height: 60%;
+    background-color: nth($colores,4);
 }
 
 .texto {
@@ -11,4 +12,9 @@
     align-items: center;
     
     text-align: justify;
+}
+
+#cardorg {
+    background-color: nth($colores,4);
+    border: none;
 }
