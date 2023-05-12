@@ -1,0 +1,80 @@
+.Inscripciones {
+    font-family: RedHat;
+    margin-left: 10%;
+    margin-right: 10%;  
+   
+   
+}
+#Inicioinscrip p{
+ margin-bottom: 1%;
+ font-size: 120%;
+ 
+}
+
+.centrado {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    color:rgb(145, 134, 12);
+    font-weight: 600;
+}
+
+#Aranceles h3{
+    display: flex;
+    justify-content: start;
+}
+
+#Aranceles ul li{
+
+    font-family: RedHat; 
+    margin-left: 10%;
+    font-size: 130%;  
+    padding: 0;   
+    text-align: justify; 
+}
+
+.entradas p{
+    display: flex;
+    justify-content: center;
+    font-size: 120%; 
+    font-weight: 600;
+}
+
+
+#Inscripcion ul li,
+#Musica ul li{
+    list-style: none;
+    font-family: RedHat; 
+    margin-left: 0%;
+    font-size: 120%;  
+    padding-bottom: 1%;
+    text-align: justify;
+
+}
+
+#Inscripcion ul p{
+    font-family: RedHat; 
+    margin-left: 10%;
+    font-size: 120%;  
+    margin-right: 0%;
+    align-content: justify;
+    font-weight: 600;
+}
+
+#Formularioi,
+#Formularioc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#botonform a{
+    color: rgb(145, 134, 12) ;
+}
+
+#botonform a:hover{
+    
+    color: whitesmoke; 
+   background-color: rgb(133, 131, 129);
+}

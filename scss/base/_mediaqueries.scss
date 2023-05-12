@@ -1,0 +1,133 @@
+@media screen and (max-width: 576px) {
+    .titulo h1 {
+        font-size: 250%;
+    }
+
+    
+    h2 {
+    
+      font-size: 180%;
+      margin-bottom: 3%;
+    }
+    h3 {
+    
+        font-size: 160%;
+        margin-bottom: 3%;
+      }
+  
+
+    .texto {
+        margin-left: 25%;
+        font-family: RedHat;
+        font-size: medium;
+        width: 50%;
+        align-items: center;
+        text-align: justify;
+    }
+
+    #imgenc img {
+        padding: 0;
+        margin-left: 3%;
+       
+    }
+    
+    #imgorg img{
+        width: 50%;
+        height: 50%; 
+    }
+    #logoindex {
+        margin-top: 5em;
+        width: 70%;
+        height: 70%;
+    }
+    
+    .tcrit p,
+    #estilos p,
+    .tpremios p,
+    .Premiosesp p,
+    .tpremios ul li,
+    #Modalidades ul li,
+    #Inscripcion ul p,
+    #Inscripcion ul li,
+    #Musica ul li,
+    #Aranceles ul li,
+    .entradas p,
+    #Inicioinscrip p{
+       font-size: 90%;
+     }
+
+     .aclaracion2,
+     .aclaracion {
+        font-size: 70%;
+     }
+
+     #Fecha ul li{
+       
+        display: flex;
+        justify-content: center;
+    }
+   
+    #lugar {
+        display: flex;
+        justify-content: center;
+    }
+
+    #imgcat img{
+        width: 100%;
+
+    }
+
+    #Inscripcion ul p,
+    #Inscripcion ul li,
+    #Musica ul li,
+    #Aranceles ul li,
+    .entradas p,
+    #Inicioinscrip p{
+        margin-right: 5%;
+    }
+
+
+}
+
+@media screen and (max-width: 778px) {
+    #bajar{
+        order: 1;
+    }
+    .texto {
+        margin-left: 25%;
+        font-family: RedHat;
+        font-size: medium;
+        width: 50%;
+        align-items: center;
+        text-align: justify;
+    }   
+    
+    #logoindex {
+        margin-top: 9em;
+
+    }
+
+    #brand-s {
+        width: 80px;
+
+    }
+    #brand-s img {
+        width: 60%;
+        
+    }
+    #imgcat img{
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 778px) and (min-width: 577px) {
+    #logoindex {
+        margin-top: 9em;
+
+    }
+    #imgcat img{
+        width: 100%;
+
+    }
+}

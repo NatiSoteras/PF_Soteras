@@ -1,0 +1,109 @@
+#Participacion {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#Participacion p{
+    margin: 0;
+}
+#Fecha ul li{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+#Modalidades ul li,
+.fecha ul li, 
+.tpremios ul li{
+    font-family: RedHat; 
+    margin-left: 10%;
+    font-size: 130%;  
+    padding: 0;    
+}
+.mapa {
+    justify-self: start; 
+    align-self: stretch; 
+    margin-left: 5%;
+  }
+
+  .aclaracion{
+    padding-top: 2%;
+    font-size: 90%;
+    color:rgb(145, 134, 12);
+    
+} 
+
+#Modalidyest{
+    padding: 0;
+}
+
+#estilos p {
+    font-size: 110%;
+}
+
+#imgcat{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+   
+}
+
+.aclaracion2 {   
+    font-size: 100%;
+    color:rgb(145, 134, 12);
+    font-weight: 600;
+    padding: 1%;
+    
+} 
+
+.aclaracion2 p{
+    align-content: justify;
+}
+
+ .tcrit p,
+ .tpremios p,
+ .Premiosesp p{
+    font-size: 120%;
+  }
+  
+  .Reglamento { 
+   
+    display: flex;
+    justify-content: center;
+ }
+ .Reglamento p{
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.Reglamento a:hover p{
+    color: black;
+    text-decoration: underline;
+    visibility: visible;
+    font-size: 60%;
+ } 
+
+
+
+ .Reglamento button a{ 
+    font-size: 100%;  
+    padding: 0px;
+ } 
+
+button:hover{
+    
+   background-color: rgb(133, 131, 129); 
+}
+
+
+
+.Reglamento h2{
+    margin-right: 3%;
+}
+button{
+    border-radius: 25%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
