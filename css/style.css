@@ -65,19 +65,19 @@ h3 {
 
 @font-face {
   font-family: RedHat;
-  src: url(../../fuentes/Red_Hat_Text/RedHatText-Italic-VariableFont_wght.ttf);
+  src: url(../fuentes/Red_Hat_Text/RedHatText-Italic-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: Moontime;
-  src: url(../../fuentes/moontime/moontime-regular.ttf);
+  src: url(../fuentes/moontime/moontime-regular.ttf);
 }
 @font-face {
   font-family: Robuck;
-  src: url(../../fuentes/Red_Hat_Text/RedHatText-VariableFont_wght.ttf);
+  src: url(../fuentes/Red_Hat_Text/RedHatText-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: Amaticbold;
-  src: url(../../fuentes/Amatic_SC/AmaticSC-Bold.ttf);
+  src: url(../fuentes/Amatic_SC/AmaticSC-Bold.ttf);
 }
 #Menupi a:hover {
   background-color: rgb(133, 131, 129);
