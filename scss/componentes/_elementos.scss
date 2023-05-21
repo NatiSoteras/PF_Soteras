@@ -28,6 +28,11 @@ p {
     align-content: center;     
 }
 
+/*El titulo está inserto con una imagen por que la fuente elegida en el logo es paga, y por eso no se puede insertar como texto*/
+h1{
+    display: none;
+}
+
 h2 {
     color: nth($colores,5);
     text-shadow: 0 0 5px nth($colores,6), 0 0 15px nth($colores,6), 0 0 30px nth($colores,7), 0 0 50px nth($colores,7);
