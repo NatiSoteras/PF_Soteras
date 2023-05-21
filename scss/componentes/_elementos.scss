@@ -28,12 +28,12 @@ p {
     align-content: center;     
 }
 
-h1 {
+h2 {
     color: nth($colores,5);
     text-shadow: 0 0 5px nth($colores,6), 0 0 15px nth($colores,6), 0 0 30px nth($colores,7), 0 0 50px nth($colores,7);
 }
 
-h2 {
+h3 {
     color: nth($colores,5);
     font-family: Amaticbold; 
     text-align: center;
@@ -43,7 +43,7 @@ h2 {
     
 }
 
-.titulo h1 {
+.titulo h2 {
     
     display: flex;
     color: nth($colores,5);
@@ -69,7 +69,7 @@ h2 {
     max-width: 100%; 
 }
 
-h3 {
+h4 {
     color: nth($colores,5);
     font-family: Amaticbold;
     text-align: center;

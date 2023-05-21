@@ -26,12 +26,12 @@ p {
   align-content: center;
 }
 
-h1 {
+h2 {
   color: rgb(249, 241, 231);
   text-shadow: 0 0 5px rgb(195, 54, 176), 0 0 15px rgb(195, 54, 176), 0 0 30px rgb(178, 128, 195), 0 0 50px rgb(178, 128, 195);
 }
 
-h2 {
+h3 {
   color: rgb(249, 241, 231);
   font-family: Amaticbold;
   text-align: center;
@@ -40,7 +40,7 @@ h2 {
   font-size: 280%;
 }
 
-.titulo h1 {
+.titulo h2 {
   display: flex;
   color: rgb(249, 241, 231);
   align-items: center;
@@ -63,7 +63,7 @@ h2 {
   max-width: 100%;
 }
 
-h3 {
+h4 {
   color: rgb(249, 241, 231);
   font-family: Amaticbold;
   text-align: center;
